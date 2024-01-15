@@ -1,4 +1,4 @@
-# Project Summary
+# What's New for Me
 
 ## Stages Finisheed
 
@@ -6,7 +6,7 @@
 
 ## JS HTML Methods 
 
-* [document.querySelector('')](https://doka.guide/js/query-selector/)
+* ```document.querySelector('')``` [link](https://doka.guide/js/query-selector/) 
   + Позволяет найти элемент по CSS-селектору среди дочерних. 
   + Если элементов несколько, то вернётся первый подходящий. 
   + Если подходящих элементов нет, то вернёт null.
@@ -18,7 +18,7 @@ const monsterHealthText = document.querySelector('#monsterHealth');
 
 ## JS HTML Properties
 
-* [.innerText](https://doka.guide/js/element-innertext/)
+* ```.innerText``` [link](https://doka.guide/js/element-innertext/)
 
   * позволяет считывать или задавать текстовое содержимое элемента. 
   * gри считывании текста с элемента будет возвращена строка с текстовым содержимым всех вложенных дочерних элементов. 
@@ -79,4 +79,3 @@ Calling long keys.value
 // object['key name']
 button1.innerText = location['button text']; 
 ```
-
